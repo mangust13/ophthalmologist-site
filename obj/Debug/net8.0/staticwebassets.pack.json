@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ophthalmologist-site\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Oculist.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Oculist.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\Schedule.png",
+      "PackagePath": "staticwebassets\\img\\Schedule.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_1.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_1.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_10.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_10.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_2.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_2.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_3.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_3.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_4.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_4.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_5.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_5.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_6.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_6.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_7.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_7.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_8.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_8.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_9.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_9.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_1.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_2.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_2.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_3.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_3.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_4.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_4.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_5.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider_5.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Oculist.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Oculist.props",
+      "PackagePath": "build\\Oculist.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Oculist.props",
+      "PackagePath": "buildMultiTargeting\\Oculist.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Oculist.props",
+      "PackagePath": "buildTransitive\\Oculist.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

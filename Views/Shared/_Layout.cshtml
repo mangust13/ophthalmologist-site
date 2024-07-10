@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index">
+                <img src="~/img/Logo.png" width="100%" alt="Дитяча офтальмологія" />
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">Головна</a></li>
+                    <li class="dropdown">
+                        <a asp-controller="About" asp-action="Index">Про нас</a>
+                        <ul class="dropdown-content">
+                            <li><a asp-controller="About" asp-action="DiagnosticCabinet">Діагностичний кабінет</a></li>
+                            <li><a asp-controller="About" asp-action="OrtoptychCabinet">Ортоптичний кабінет</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="Treatment" asp-action="Index">Наше лікування</a>
+                        <ul class="dropdown-content">
+                            <li><a asp-controller="Treatment" asp-action="Terapevtic">Терапевтичне лікування</a></li>
+                            <li><a asp-controller="Treatment" asp-action="Orthopedic">Ортоптичне лікування</a></li>
+                            <li><a asp-controller="Treatment" asp-action="Fizioterapevt">Фізіотерапевтичне лікування</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="Questions" asp-action="Index">Питання-відповіді</a>
+                    </li>
+                    <li><a asp-controller="Contacts" asp-action="Index">Контакти</a></li>
+                    <li><a asp-controller="Lenses" asp-action="Index">Контактні і нічні лінзи</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>Контакти</h3>
+                <p>м. Рівне, вул. 16 липня, 57 (навпроти діагностичного центру)</p>
+                <p>
+                    📞 +38 (067) 219 27 74<br>
+                    📞 +38 (066) 432 04 33<br>
+                    📞 +38 (098) 863 77 14
+                </p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Діагностичний кабінет</a></li>
+                    <li><a href="#">Ортоптичний кабінет</a></li>
+                    <li><a href="#">Виготовлення окулярів</a></li>
+                    <li><a href="#">Терапевтичне лікування</a></li>
+                    <li><a href="#">Ортоптичне лікування</a></li>
+                    <li><a href="#">Фізіотерапевтичне лікування</a></li>
+                </ul>
+            </div>
+            <div class="footer-hours">
+                <img src="~/img/Schedule.png">
+                <p>Всі права захищені, — 2024.</p>
+            </div>
+        </div>
+    </footer>
+    <script src ="~/js/home.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false);
+</body>
+</html>
