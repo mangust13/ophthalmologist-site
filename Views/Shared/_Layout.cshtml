@@ -10,17 +10,17 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
             <div class="logo">
                 <a asp-controller="Home" asp-action="Index">
-                <img src="~/img/Logo.png" width="100%" alt="Дитяча офтальмологія" />
+                <img src="~/img/Logo.png" width="30%" alt="Дитяча офтальмологія" />
                 </a>
             </div>
             <nav>
                 <ul>
-                    <li><a asp-controller="Home" asp-action="Index">Головна</a></li>
                     <li class="dropdown">
-                        <a asp-controller="About" asp-action="Index">Про нас</a>
+                        <a asp-controller="About" asp-action="Index">Про нас<span class="dropdown-arrow"></span></a>
+                        
                         <ul class="dropdown-content">
                             <li><a asp-controller="About" asp-action="DiagnosticCabinet">Діагностичний кабінет</a></li>
                             <li><a asp-controller="About" asp-action="OrtoptychCabinet">Ортоптичний кабінет</a></li>
@@ -52,29 +52,28 @@
             <div class="footer-contact">
                 <h3>Контакти</h3>
                 <p>м. Рівне, вул. 16 липня, 57 (навпроти діагностичного центру)</p>
-                <p>
-                    📞 +38 (067) 219 27 74<br>
-                    📞 +38 (066) 432 04 33<br>
-                    📞 +38 (098) 863 77 14
+                <p class="phone">
+                    <span class="label">Контактний телефон лікаря:</span> <span class="phone-number">📞 +38 (067) 219 27 74</span><br>
+                <span class="label">Телефон кабінету:</span> <span class="phone-number">📞 +38 (066) 432 04 33</span><br>
                 </p>
             </div>
             <div class="footer-links">
                 <ul>
-                    <li><a href="#">Діагностичний кабінет</a></li>
-                    <li><a href="#">Ортоптичний кабінет</a></li>
-                    <li><a href="#">Виготовлення окулярів</a></li>
-                    <li><a href="#">Терапевтичне лікування</a></li>
-                    <li><a href="#">Ортоптичне лікування</a></li>
-                    <li><a href="#">Фізіотерапевтичне лікування</a></li>
+                    <li><a asp-controller="About" asp-action="DiagnosticCabinet">Діагностичний кабінет</a></li>
+                    <li><a asp-controller="About" asp-action="OrtoptychCabinet">Ортоптичний кабінет</a></li>
+                    <li><a asp-controller="Treatment" asp-action="Terapevtic">Терапевтичне лікування</a></li>
+                    <li><a asp-controller="Treatment" asp-action="Orthopedic">Ортоптичне лікування</a></li>
+                    <li><a asp-controller="Treatment" asp-action="Fizioterapevt">Фізіотерапевтичне лікування</a></li>
                 </ul>
             </div>
             <div class="footer-hours">
-                <img src="~/img/Schedule.png">
+                <img src="~/img/Schedule.png" alt="Графік роботи">
                 <p>Всі права захищені, — 2024.</p>
             </div>
         </div>
     </footer>
-    <script src ="~/js/home.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false);
+    <script src="~/js/home.js"></script>
+
+    @* @await RenderSectionAsync("Scripts", required: false); *@
 </body>
 </html>

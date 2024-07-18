@@ -1,24 +1,114 @@
-﻿.slideshow-container {
-    max-width: 70%;
+﻿/*Slideshow*/
+.slideshow-container {
+    max-width: 80%;
     position: relative;
-    margin: auto;
+    margin: 120px auto;
+    overflow: hidden;
 }
 
 .mySlides {
     display: none;
 }
 
-.fade {
-    animation-name: fade;
-    animation-duration: 1.0s;
+.mySlides img {
+    width: 100%;
+    vertical-align: middle;
 }
 
-@keyframes fade {
-    from {
-        opacity: .4
-    }
+/*Navigation*/
+.nav-text {
+    box-sizing: border-box;
+    line-height: 1;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #008bd0;
+    font-weight: 700;
+}
 
-    to {
-        opacity: 1
-    }
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0 20px 40px 20px;
+    box-sizing: border-box;
+}
+
+.nav-container img {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*Advantages*/
+.advantages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.advantages-container img {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*doctor-container*/
+.doctor-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.doctor-info strong {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.horizontal-line {
+    width: 220px;
+    height: 2px;
+    background-color: #008bd0;
+    margin: 20px auto;
+    border: none;
+}
+
+.doctor-info p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.doctor-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.doctor-photo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.doctor-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.doctor-info {
+    flex: 2;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.doctor-footer-text {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #008bd0;
+    font-size: 1.5em;
+    text-align: center;
 }

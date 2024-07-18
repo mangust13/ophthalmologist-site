@@ -58,3 +58,4 @@ D:\ophthalmologist-site\obj\Debug\net8.0\refint\Oculist.dll
 D:\ophthalmologist-site\obj\Debug\net8.0\Oculist.pdb
 D:\ophthalmologist-site\obj\Debug\net8.0\Oculist.genruntimeconfig.cache
 D:\ophthalmologist-site\obj\Debug\net8.0\ref\Oculist.dll
+D:\ophthalmologist-site\obj\Debug\net8.0\Oculist.sourcelink.json
