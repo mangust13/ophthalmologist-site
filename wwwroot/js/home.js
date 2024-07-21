@@ -19,23 +19,13 @@ function showSlides() {
 }
 
 //Відкриття зображення
-var modal = document.getElementById("modal");
-var modalImage = document.getElementById("modal-image");
-var closeBtn = document.getElementsByClassName("close")[0];
-
-document.querySelectorAll('.clickable-image').forEach(function (img) {
-    img.onclick = function () {
-        modal.style.display = "block";
-        modalImage.src = this.src;
-    }
-});
-
-closeBtn.onclick = function () {
-    modal.style.display = "none";
+function fullView(ImgLink) {
+    document.getElementById("full-image").src = ImgLink;
+    document.getElementById("full-image-view").style.display = "block";
+    document.getElementsByTagName("header")[0].style.display = "none";
 }
 
-modal.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+function closefullView(ImgLink) {
+    document.getElementById("full-image-view").style.display = "none";
+    document.getElementsByTagName("header")[0].style.display = "block";
 }

@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\img\\about\\diagnostik_2.jpg"
     },
     {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\lenses\\lenses_1.jpg",
       "PackagePath": "staticwebassets\\img\\lenses\\lenses_1.jpg"
     },

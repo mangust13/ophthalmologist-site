@@ -10,12 +10,13 @@
 
 <div class="diagnostic-container">
     <div class="diagnostic-images">
-        <img src="~/img/about/diagnostik_1.jpg" alt="Доктор">
-        <img src="~/img/about/diagnostik_2.jpg" alt="Доктор">
+        <img src="~/img/about/diagnostik_1.jpg" alt="Доктор" onclick="fullView(this.src)">
+        <img src="~/img/about/diagnostik_2.jpg" alt="Доктор" onclick="fullView(this.src)">
     </div>
-    <div class="diagnostic-description">
+    
+    <div class="diagnostic-info">
         <h2>В кабінеті офтальмолога знаходиться:</h2>
-        <ul>
+         <ul>
             <li><strong>Авторефрактометр</strong> — необхідний для об’єктивного визначення рефракції (діоптрії) очей і розміру рогівки (важливо для підбору необхідної контактної корекції). Рефрактометрія повністю автоматизована, відрізняється точними результатами, вимагає мінімуму часу, тому вона часто застосовується при діагностиці дітей з порушенням зору.</li>
             <li><strong>Біомікроскоп</strong> - цей апарат дозволяє лікарю оглянути кон’юнктиви і рогівки. Вивчаються розміри, прозорість, форма, дзеркальність, блиск. Перевіряється, чи немає запальних процесів.</li>
             <li><strong>Офтальмоскоп</strong> — сучасний апарат, що дозволяє детально досліджувати очне дно і очне яблуко. Може використовуватися і для виявлення захворювань центральної нервової системи та інших органів.</li>
@@ -27,3 +28,10 @@
         </ul>
     </div>
 </div>
+
+<div id="full-image-view">
+    <img id="full-image" />
+    <span id="close-button" onclick="closefullView()">&times;</span>
+</div>
+
+<script src="~/js/home.js" asp-append-version="true"></script>

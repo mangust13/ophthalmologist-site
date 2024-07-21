@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QGAzJc+r6QoRZUGuXFE4EQlx5lHD8yv2izNXok1TrZQ=",
+  "Hash": "kGQCe35BcgtnLfXoaSmXm5AmPvO/jgFLzA0hvH3KitY=",
   "Source": "Oculist",
   "BasePath": "_content/Oculist",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\about\\diagnostik_2.jpg"
+    },
+    {
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\favicon.png",
+      "SourceId": "Oculist",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
+      "BasePath": "_content/Oculist",
+      "RelativePath": "img/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\favicon.png"
     },
     {
       "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\lenses\\lenses_1.jpg",

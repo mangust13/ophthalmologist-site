@@ -1,8 +1,8 @@
 ﻿/*Slideshow*/
 .slideshow-container {
     max-width: 80%;
-    position: relative;
     margin: 120px auto;
+    position: relative;
     overflow: hidden;
 }
 

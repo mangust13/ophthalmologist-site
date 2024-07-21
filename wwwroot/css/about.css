@@ -33,20 +33,20 @@
     font-size: 1.2em;
 }
 
-.doctor-section {
+.doctor-section-container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin-top: 20px;
 }
 
-.doctor-photo {
+.doctor-images {
     flex: 1;
     padding: 20px;
     text-align: center;
 }
 
-.doctor-photo img {
+.doctor-images img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -69,98 +69,77 @@
 
 /*Diagnostic*/
 .diagnostic-container {
-    display: flex;
-    padding: 20px;
-    width:  80%;
+    width: 80%;
     margin: 120px auto;
-}
-
-.diagnostic-images {
-    flex: 1;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.diagnostic-images img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-.diagnostic-description {
+.diagnostic-info {
     flex: 2;
     padding-left: 20px;
 }
 
-.diagnostic-description h2 {
-    font-size: 24px;
+.diagnostic-info h2 {
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
-.diagnostic-description ul {
+.diagnostic-info ul {
     list-style: none;
     padding: 0;
 }
 
-.diagnostic-description ul li {
+.diagnostic-info ul li {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
-.diagnostic-description ul li strong {
+.diagnostic-info ul li strong {
     font-weight: bold;
 }
 
+.diagnostic-images {
+    flex: 1;
+    padding: 20px;
+}
 
+.diagnostic-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
-/*Відкриття зображення*/
-.clickable-image {
+.diagnostic-images img:hover {
     cursor: pointer;
-    max-width: 100%;
+    filter:brightness(70%);
+}
+
+/*full image*/
+#full-image-view {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+#full-image {
+    margin: 109px 0 20px;
+    max-width: 65%;
     height: auto;
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 60px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-.close {
+#close-button {
     position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+    top: 10%;
+    right: 16%;
+    font-size: 3rem;
+    color: white;
     cursor: pointer;
-}
-
-    .close:hover,
-    .close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-@media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
 }
