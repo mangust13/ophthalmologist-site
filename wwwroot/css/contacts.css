@@ -17,20 +17,21 @@
     text-align: center;
 }
 
-    .map-container iframe {
-        width: 80%;
-        height: 450px;
-        border: none;
-    }
+.map-container iframe {
+    width: 80%;
+    height: 450px;
+    border: none;
+}
 
-    .map-container h2 {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
+.map-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
 /*Contacts*/
 .contacts-container {
     max-width: 30%;
+    height: 410px;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

@@ -13,6 +13,7 @@
 .mySlides img {
     width: 100%;
     vertical-align: middle;
+    border-radius: 30px;
 }
 
 /*Navigation*/
@@ -29,15 +30,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    padding: 0 20px 40px 20px;
-    box-sizing: border-box;
+    padding: 0 0 40px 0;
+    width: 80%;
+    margin: 60px auto;
 }
 
-.nav-container img {
-    margin: 0 auto;
-    width: 50%;
-}
+    .nav-container img {
+        margin: 0 auto;
+        width: 75%;
+        transition: transform 0.3s, filter 0.3s;
+    }
 
+    .nav-container a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-container img:hover {
+        transform: scale(1.05);
+        filter: brightness(70%);
+    }
 /*Advantages*/
 .advantages-container {
     display: grid;
@@ -45,11 +57,14 @@
     grid-gap: 10px;
     padding: 0 20px;
     box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .advantages-container img {
     margin: 0 auto;
-    width: 50%;
+    width: 75%;
+    border-radius: 10px;
 }
 
 /*doctor-container*/

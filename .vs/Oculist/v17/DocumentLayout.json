@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\ophthalmologist-site\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|d:\\ophthalmologist-site\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|solutionrelative:wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|d:\\ophthalmologist-site\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|solutionrelative:wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|d:\\ophthalmologist-site\\views\\about\\diagnosticcabinet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|solutionrelative:views\\about\\diagnosticcabinet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|d:\\ophthalmologist-site\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|solutionrelative:views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|d:\\ophthalmologist-site\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC489488-6573-409B-8656-E703373BEB78}|Oculist.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,70 +13,26 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 194,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "home.js",
-              "DocumentMoniker": "D:\\ophthalmologist-site\\wwwroot\\js\\home.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\home.js",
-              "ToolTip": "D:\\ophthalmologist-site\\wwwroot\\js\\home.js",
-              "RelativeToolTip": "wwwroot\\js\\home.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-21T13:57:53.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ophthalmologist-site\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\About\\Index.cshtml",
-              "ToolTip": "D:\\ophthalmologist-site\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "Views\\About\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-21T13:42:13.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "about.css",
-              "DocumentMoniker": "D:\\ophthalmologist-site\\wwwroot\\css\\about.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\about.css",
-              "ToolTip": "D:\\ophthalmologist-site\\wwwroot\\css\\about.css",
-              "RelativeToolTip": "wwwroot\\css\\about.css",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-17T20:15:26.008Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 206,
+          "DockedWidth": 207,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DiagnosticCabinet.cshtml",
-              "DocumentMoniker": "D:\\ophthalmologist-site\\Views\\About\\DiagnosticCabinet.cshtml",
-              "RelativeDocumentMoniker": "Views\\About\\DiagnosticCabinet.cshtml",
-              "ToolTip": "D:\\ophthalmologist-site\\Views\\About\\DiagnosticCabinet.cshtml",
-              "RelativeToolTip": "Views\\About\\DiagnosticCabinet.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAGAAAA",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ophthalmologist-site\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ophthalmologist-site\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-19T09:59:57.645Z",
+              "WhenOpened": "2024-07-21T17:12:48.685Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

@@ -46,6 +46,10 @@
     </header>
     <main>
         @RenderBody()
+        <div id="full-image-view" onclick="closefullView(event)">
+            <img id="full-image" />
+            <span id="close-button" onclick="closefullView(event)">&times;</span>
+        </div>
     </main>
     <footer>
         <div class="footer-container">

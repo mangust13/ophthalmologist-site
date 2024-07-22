@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\css\\lenses.css"
     },
     {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\treatment.css",
+      "PackagePath": "staticwebassets\\css\\treatment.css"
+    },
+    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\Logo.png",
       "PackagePath": "staticwebassets\\img\\Logo.png"
     },
@@ -61,24 +65,20 @@
       "PackagePath": "staticwebassets\\img\\lenses\\lenses_3.jpg"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_1.png",
-      "PackagePath": "staticwebassets\\img\\main\\Photo_1.png"
-    },
-    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_10.png",
       "PackagePath": "staticwebassets\\img\\main\\Photo_10.png"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_2.png",
-      "PackagePath": "staticwebassets\\img\\main\\Photo_2.png"
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_12.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_12.png"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_3.png",
       "PackagePath": "staticwebassets\\img\\main\\Photo_3.png"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_4.png",
-      "PackagePath": "staticwebassets\\img\\main\\Photo_4.png"
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_42.png",
+      "PackagePath": "staticwebassets\\img\\main\\Photo_42.png"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_5.png",
@@ -101,6 +101,22 @@
       "PackagePath": "staticwebassets\\img\\main\\Photo_9.png"
     },
     {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\photo_1.png",
+      "PackagePath": "staticwebassets\\img\\main\\photo_1.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\photo_2.png",
+      "PackagePath": "staticwebassets\\img\\main\\photo_2.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\photo_22.png",
+      "PackagePath": "staticwebassets\\img\\main\\photo_22.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\photo_4.png",
+      "PackagePath": "staticwebassets\\img\\main\\photo_4.png"
+    },
+    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\mini-logo.png",
       "PackagePath": "staticwebassets\\img\\mini-logo.png"
     },
@@ -109,44 +125,36 @@
       "PackagePath": "staticwebassets\\img\\slider\\slider_1.jpg"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_12.jpg",
-      "PackagePath": "staticwebassets\\img\\slider\\slider_12.jpg"
-    },
-    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_2.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\slider_2.jpg"
-    },
-    {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_22.jpg",
-      "PackagePath": "staticwebassets\\img\\slider\\slider_22.jpg"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_3.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\slider_3.jpg"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_32.jpg",
-      "PackagePath": "staticwebassets\\img\\slider\\slider_32.jpg"
-    },
-    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_4.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\slider_4.jpg"
-    },
-    {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_42.jpg",
-      "PackagePath": "staticwebassets\\img\\slider\\slider_42.jpg"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_5.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\slider_5.jpg"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_52.jpg",
-      "PackagePath": "staticwebassets\\img\\slider\\slider_52.jpg"
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\ortoptych_1.jpg",
+      "PackagePath": "staticwebassets\\img\\treatment\\ortoptych_1.jpg"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\Новий Презентація Microsoft PowerPoint.pptx",
-      "PackagePath": "staticwebassets\\img\\slider\\Новий Презентація Microsoft PowerPoint.pptx"
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\ortoptych_2.jpg",
+      "PackagePath": "staticwebassets\\img\\treatment\\ortoptych_2.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\ortoptych_3.jpg",
+      "PackagePath": "staticwebassets\\img\\treatment\\ortoptych_3.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\ortoptych_4.jpg",
+      "PackagePath": "staticwebassets\\img\\treatment\\ortoptych_4.jpg"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\js\\home.js",

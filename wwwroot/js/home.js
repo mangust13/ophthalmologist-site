@@ -25,7 +25,10 @@ function fullView(ImgLink) {
     document.getElementsByTagName("header")[0].style.display = "none";
 }
 
-function closefullView(ImgLink) {
-    document.getElementById("full-image-view").style.display = "none";
-    document.getElementsByTagName("header")[0].style.display = "block";
+function closefullView(event) {
+    // Check if the clicked element is outside the full-image
+    if (event.target.id === "full-image-view" || event.target.id === "close-button") {
+        document.getElementById("full-image-view").style.display = "none";
+        document.getElementsByTagName("header")[0].style.display = "block";
+    }
 }

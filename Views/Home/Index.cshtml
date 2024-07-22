@@ -3,36 +3,47 @@
 }
 
 <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
-@* <link rel="stylesheet" href="~/css/about.css" asp-append-version="true" /> *@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <div class="slideshow-container">
-    <div class="mySlides fade">
-        <img src="~/img/slider/slider_12.jpg" style="width:100%">
+    <div class="mySlides">
+        <img src="~/img/slider/slider_1.jpg">
     </div>
-    <div class="mySlides fade">
-        <img src="~/img/slider/slider_22.jpg" style="width:100%">
+    <div class="mySlides">
+        <img src="~/img/slider/slider_2.jpg">
     </div>
-    <div class="mySlides fade">
-        <img src="~/img/slider/slider_32.jpg" style="width:100%">
+    <div class="mySlides">
+        <img src="~/img/slider/slider_3.jpg">
     </div>
-    <div class="mySlides fade">
-        <img src="~/img/slider/slider_42.jpg" style="width:100%">
+    <div class="mySlides">
+        <img src="~/img/slider/slider_4.jpg">
     </div>
-    <div class="mySlides fade">
-        <img src="~/img/slider/slider_52.jpg" style="width:100%">
+    <div class="mySlides">
+        <img src="~/img/slider/slider_5.jpg">
     </div>
 </div>
 
 
 <h1 class="nav-text">Наше лікування</h1>
 <div class="nav-container">
-    <img src="~/img/main/Photo_1.png" alt="Зображення 1">
-    <img src="~/img/main/Photo_2.png" alt="Зображення 2">
-    <img src="~/img/main/Photo_3.png" alt="Зображення 3">
-    <img src="~/img/main/Photo_4.png" alt="Зображення 4">
-    <img src="~/img/main/Photo_5.png" alt="Зображення 5">
-    <img src="~/img/main/Photo_6.png" alt="Зображення 6">
+        <a asp-controller="About" asp-action="Index">
+            <img src="~/img/main/photo_1.png" alt="Зображення 1">
+        </a>
+        <a asp-controller="About" asp-action="Index">
+            <img src="~/img/main/photo_2.png" alt="Зображення 2">
+        </a>
+        <a asp-controller="Treatment" asp-action="Orthopedic">
+            <img src="~/img/main/Photo_3.png" alt="Зображення 3">
+        </a>
+        <a asp-controller="About" asp-action="Index">
+            <img src="~/img/main/photo_4.png" alt="Зображення 4">
+        </a>
+        <a asp-controller="About" asp-action="Index">
+            <img src="~/img/main/Photo_5.png" alt="Зображення 5">
+        </a>
+        <a asp-controller="About" asp-action="Index">
+            <img src="~/img/main/Photo_6.png" alt="Зображення 6">
+        </a>
 </div>
 
 <h1 class="nav-text">Наші переваги</h1>
