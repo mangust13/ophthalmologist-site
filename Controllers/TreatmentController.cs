@@ -5,7 +5,7 @@ namespace Oculist.Controllers
     public class TreatmentController : Controller
     {
         [Route("treatment")]
-        public IActionResult Index()
+        public IActionResult Treatment()
         {
             return View();
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I0n5QSbvyESlO4Rgw3CcV5ALFp5N8XWKoe0ImqqetPs=",
+  "Hash": "mGmWjXj8X/19MeLIY8iPZiESbMYsgDpCHfZkLz7u2Vs=",
   "Source": "Oculist",
   "BasePath": "_content/Oculist",
   "Mode": "Default",
@@ -131,25 +131,6 @@
       "OriginalItemSpec": "wwwroot\\css\\header.css"
     },
     {
-      "Identity": "D:\\ophthalmologist-site\\wwwroot\\css\\home.css",
-      "SourceId": "Oculist",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
-      "BasePath": "_content/Oculist",
-      "RelativePath": "css/home.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\home.css"
-    },
-    {
       "Identity": "D:\\ophthalmologist-site\\wwwroot\\css\\lenses.css",
       "SourceId": "Oculist",
       "SourceType": "Discovered",
@@ -167,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\lenses.css"
+    },
+    {
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\css\\main.css",
+      "SourceId": "Oculist",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
+      "BasePath": "_content/Oculist",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
       "Identity": "D:\\ophthalmologist-site\\wwwroot\\css\\treatment.css",
@@ -777,12 +777,12 @@
       "OriginalItemSpec": "wwwroot\\img\\treatment\\ortoptych_4.jpg"
     },
     {
-      "Identity": "D:\\ophthalmologist-site\\wwwroot\\js\\home.js",
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\js\\site.js",
       "SourceId": "Oculist",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
       "BasePath": "_content/Oculist",
-      "RelativePath": "js/home.js",
+      "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -793,7 +793,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\home.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ]
 }

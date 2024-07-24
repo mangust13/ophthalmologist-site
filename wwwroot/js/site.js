@@ -1,5 +1,4 @@
 ﻿//Slideshow
-
 let slideIndex = 0;
 showSlides();
 
@@ -23,6 +22,7 @@ function fullView(ImgLink) {
     document.getElementById("full-image").src = ImgLink;
     document.getElementById("full-image-view").style.display = "block";
     document.getElementsByTagName("header")[0].style.display = "none";
+    document.body.style.overflow = 'hidden';
 }
 
 function closefullView(event) {
@@ -30,5 +30,6 @@ function closefullView(event) {
     if (event.target.id === "full-image-view" || event.target.id === "close-button") {
         document.getElementById("full-image-view").style.display = "none";
         document.getElementsByTagName("header")[0].style.display = "block";
+        document.body.style.overflow = '';
     }
 }

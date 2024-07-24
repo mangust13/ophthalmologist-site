@@ -5,7 +5,7 @@ namespace Oculist.Controllers
     public class AboutController : Controller
     {
         [Route("about")]
-        public IActionResult Index()
+        public IActionResult About()
         {
             return View();
         }

@@ -21,12 +21,12 @@
       "PackagePath": "staticwebassets\\css\\header.css"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\home.css",
-      "PackagePath": "staticwebassets\\css\\home.css"
-    },
-    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\lenses.css",
       "PackagePath": "staticwebassets\\css\\lenses.css"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\css\\treatment.css",
@@ -157,8 +157,8 @@
       "PackagePath": "staticwebassets\\img\\treatment\\ortoptych_4.jpg"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\js\\home.js",
-      "PackagePath": "staticwebassets\\js\\home.js"
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Oculist.Microsoft.AspNetCore.StaticWebAssets.props",

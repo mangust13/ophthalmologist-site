@@ -6,43 +6,42 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
+
     <link rel="icon" href="~/img/favicon.png" type="image/icon type"/>
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
-                <a asp-controller="Home" asp-action="Index">
-                <img src="~/img/Logo.png" width="30%" alt="Дитяча офтальмологія" />
+                <a asp-controller="Main" asp-action="Main">
+                    <img src="~/img/Logo.png" width="30%" alt="Дитяча офтальмологія" />
                 </a>
             </div>
             <nav>
                 <ul>
-                    <li class="dropdown">
-                        <a asp-controller="About" asp-action="Index">Про нас<span class="dropdown-arrow"></span></a>
-                        
+                    <li >
+                        <a asp-controller="About" asp-action="About" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "About" ? "active" : "")">Про нас</a>
                         <ul class="dropdown-content">
-                            <li><a asp-controller="About" asp-action="DiagnosticCabinet">Діагностичний кабінет</a></li>
-                            <li><a asp-controller="About" asp-action="OrtoptychCabinet">Ортоптичний кабінет</a></li>
+                            <li><a asp-controller="About" asp-action="DiagnosticCabinet" class="@(ViewContext.RouteData.Values["controller"].ToString() == "About" && ViewContext.RouteData.Values["action"].ToString() == "DiagnosticCabinet" ? "active" : "")">Діагностичний кабінет</a></li>
+                            <li><a asp-controller="About" asp-action="OrtoptychCabinet" class="@(ViewContext.RouteData.Values["controller"].ToString() == "About" && ViewContext.RouteData.Values["action"].ToString() == "OrtoptychCabinet" ? "active" : "")">Ортоптичний кабінет</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a asp-controller="Treatment" asp-action="Index">Наше лікування</a>
+                    <li >
+                        <a asp-controller="Treatment" asp-action="Treatment" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" ? "active" : "")">Наше лікування</a>
                         <ul class="dropdown-content">
-                            <li><a asp-controller="Treatment" asp-action="Terapevtic">Терапевтичне лікування</a></li>
-                            <li><a asp-controller="Treatment" asp-action="Orthopedic">Ортоптичне лікування</a></li>
-                            <li><a asp-controller="Treatment" asp-action="Fizioterapevt">Фізіотерапевтичне лікування</a></li>
+                            <li><a asp-controller="Treatment" asp-action="Terapevtic" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" && ViewContext.RouteData.Values["action"].ToString() == "Terapevtic" ? "active" : "")">Терапевтичне лікування</a></li>
+                            <li><a asp-controller="Treatment" asp-action="Orthopedic" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" && ViewContext.RouteData.Values["action"].ToString() == "Orthopedic" ? "active" : "")">Ортоптичне лікування</a></li>
+                            <li><a asp-controller="Treatment" asp-action="Fizioterapevt" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" && ViewContext.RouteData.Values["action"].ToString() == "Fizioterapevt" ? "active" : "")">Фізіотерапевтичне лікування</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a asp-controller="Questions" asp-action="Index">Питання-відповіді</a>
+                    <li >
+                        <a class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "Questions" ? "active" : "")"  asp-controller="Questions" asp-action="Questions">Питання-відповіді</a>
                     </li>
-                    <li><a asp-controller="Contacts" asp-action="Index">Контакти</a></li>
-                    <li><a asp-controller="Lenses" asp-action="Index">Контактні і нічні лінзи</a></li>
+                    <li><a asp-controller="Contacts" asp-action="Contacts" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Contacts" ? "active" : "")">Контакти</a></li>
+                    <li><a asp-controller="Lenses" asp-action="Lenses" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Lenses" ? "active" : "")">Контактні і нічні лінзи</a></li>
                 </ul>
             </nav>
         </div>
-
     </header>
     <main>
         @RenderBody()
@@ -76,8 +75,7 @@
             </div>
         </div>
     </footer>
-    <script src="~/js/home.js"></script>
-
+    <script src="~/js/site.js"></script>
     @* @await RenderSectionAsync("Scripts", required: false); *@
 </body>
 </html>
