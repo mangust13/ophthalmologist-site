@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mGmWjXj8X/19MeLIY8iPZiESbMYsgDpCHfZkLz7u2Vs=",
+  "Hash": "Udu9sEEps1k8E5brLoN3pybyhFUmQk6Ze7GKPMZKU18=",
   "Source": "Oculist",
   "BasePath": "_content/Oculist",
   "Mode": "Default",
@@ -245,6 +245,63 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.png"
     },
     {
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\icons\\email.png",
+      "SourceId": "Oculist",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
+      "BasePath": "_content/Oculist",
+      "RelativePath": "img/icons/email.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons\\email.png"
+    },
+    {
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\icons\\map.png",
+      "SourceId": "Oculist",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
+      "BasePath": "_content/Oculist",
+      "RelativePath": "img/icons/map.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons\\map.png"
+    },
+    {
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\icons\\phone.png",
+      "SourceId": "Oculist",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
+      "BasePath": "_content/Oculist",
+      "RelativePath": "img/icons/phone.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons\\phone.png"
+    },
+    {
       "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\lenses\\lenses_1.jpg",
       "SourceId": "Oculist",
       "SourceType": "Discovered",
@@ -302,12 +359,12 @@
       "OriginalItemSpec": "wwwroot\\img\\lenses\\lenses_3.jpg"
     },
     {
-      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\Logo.png",
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\logo.png",
       "SourceId": "Oculist",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
       "BasePath": "_content/Oculist",
-      "RelativePath": "img/Logo.png",
+      "RelativePath": "img/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,7 +375,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Logo.png"
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\photo_1.png",
@@ -587,12 +644,12 @@
       "OriginalItemSpec": "wwwroot\\img\\mini-logo.png"
     },
     {
-      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\Schedule.png",
+      "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\schedule.png",
       "SourceId": "Oculist",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ophthalmologist-site\\wwwroot\\",
       "BasePath": "_content/Oculist",
-      "RelativePath": "img/Schedule.png",
+      "RelativePath": "img/schedule.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,7 +660,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Schedule.png"
+      "OriginalItemSpec": "wwwroot\\img\\schedule.png"
     },
     {
       "Identity": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_1.jpg",

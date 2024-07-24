@@ -12,34 +12,20 @@
     align-items: flex-start;
 }
 
-.footer-contact, .footer-links, .footer-hours {
+.footer-contact, .footer-hours {
     flex: 1;
 }
 
-.footer-contact h3, .footer-links ul {
+.footer-contact h3{
     margin: 0;
     padding: 0;
 }
 
-.footer-contact p, .footer-links ul li, .footer-hours p {
-        margin: 10px 0;
-        font-size: 13px;
-}
-
-.footer-links ul {
-    list-style: none;
-    }
-
-.footer-links ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.footer-contact p, .footer-hours p {
+    margin: 10px 0;
     font-size: 13px;
 }
 
-.footer-links ul li a:hover {
-    color: #007bff;
-}
 
 .footer-hours img {
     max-width: 100%;

@@ -34,16 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ29udGFjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ophthalmologist-site/Views/Lenses/Lenses.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuc2VzXExlbnNlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ophthalmologist-site/Views/Main/Main.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxNYWluLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ophthalmologist-site/Views/Navigation/ContactLenses.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2aWdhdGlvblxDb250YWN0TGVuc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ophthalmologist-site/Views/Navigation/Diagnostic.cshtml]
@@ -58,12 +50,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2aWdhdGlvblxGcmFtZXNBbmRMZW5zZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ophthalmologist-site/Views/Navigation/Ophthalmology.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2aWdhdGlvblxPcGh0aGFsbW9sb2d5LmNzaHRtbA==
+[D:/ophthalmologist-site/Views/Navigation/Lenses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2aWdhdGlvblxMZW5zZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ophthalmologist-site/Views/Questions/Questions.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXFF1ZXN0aW9ucy5jc2h0bWw=
+[D:/ophthalmologist-site/Views/Navigation/Ophthalmology.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2aWdhdGlvblxPcGh0aGFsbW9sb2d5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ophthalmologist-site/Views/Shared/Error.cshtml]

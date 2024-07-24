@@ -33,14 +33,6 @@
       "PackagePath": "staticwebassets\\css\\treatment.css"
     },
     {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\Logo.png",
-      "PackagePath": "staticwebassets\\img\\Logo.png"
-    },
-    {
-      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\Schedule.png",
-      "PackagePath": "staticwebassets\\img\\Schedule.png"
-    },
-    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\about\\diagnostik_1.jpg",
       "PackagePath": "staticwebassets\\img\\about\\diagnostik_1.jpg"
     },
@@ -53,6 +45,18 @@
       "PackagePath": "staticwebassets\\img\\favicon.png"
     },
     {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\icons\\email.png",
+      "PackagePath": "staticwebassets\\img\\icons\\email.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\icons\\map.png",
+      "PackagePath": "staticwebassets\\img\\icons\\map.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\icons\\phone.png",
+      "PackagePath": "staticwebassets\\img\\icons\\phone.png"
+    },
+    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\lenses\\lenses_1.jpg",
       "PackagePath": "staticwebassets\\img\\lenses\\lenses_1.jpg"
     },
@@ -63,6 +67,10 @@
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\lenses\\lenses_3.jpg",
       "PackagePath": "staticwebassets\\img\\lenses\\lenses_3.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\main\\Photo_10.png",
@@ -119,6 +127,10 @@
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\mini-logo.png",
       "PackagePath": "staticwebassets\\img\\mini-logo.png"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\schedule.png",
+      "PackagePath": "staticwebassets\\img\\schedule.png"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\slider\\slider_1.jpg",

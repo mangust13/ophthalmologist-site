@@ -14,11 +14,14 @@
         <div class="header-container">
             <div class="logo">
                 <a asp-controller="Main" asp-action="Main">
-                    <img src="~/img/Logo.png" width="30%" alt="Дитяча офтальмологія" />
+                    <img src="~/img/logo.png" alt="Дитяча офтальмологія" />
                 </a>
             </div>
             <nav>
                 <ul>
+                    <li>
+                        <a asp-controller="Main" asp-action="Main" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "Main" ? "active" : "")">Головна</a>
+                    </li>
                     <li >
                         <a asp-controller="About" asp-action="About" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "About" ? "active" : "")">Про нас</a>
                         <ul class="dropdown-content">
@@ -34,15 +37,23 @@
                             <li><a asp-controller="Treatment" asp-action="Fizioterapevt" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" && ViewContext.RouteData.Values["action"].ToString() == "Fizioterapevt" ? "active" : "")">Фізіотерапевтичне лікування</a></li>
                         </ul>
                     </li>
-                    <li >
-                        <a class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "Questions" ? "active" : "")"  asp-controller="Questions" asp-action="Questions">Питання-відповіді</a>
-                    </li>
                     <li><a asp-controller="Contacts" asp-action="Contacts" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Contacts" ? "active" : "")">Контакти</a></li>
-                    <li><a asp-controller="Lenses" asp-action="Lenses" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Lenses" ? "active" : "")">Контактні і нічні лінзи</a></li>
+                    @* <img src="~/img/icons/map.png" width="35px" alt="Дитяча офтальмологія" /> *@
+
                 </ul>
             </nav>
+
+            <div class="additional-info">
+                <a target = "_blank" href="https://maps.app.goo.gl/gnvqex48utAmq5US8">
+                    <img src="~/img/icons/map.png" alt="Map Icon" class="icon"> Рівне
+                </a>
+                <a href="tel:+380978820835">
+                    <img src="~/img/icons/phone.png" alt="Phone Icon" class="icon"> +38 (067) 219-27-74
+                </a>
+            </div>
         </div>
     </header>
+
     <main>
         @RenderBody()
         <div id="full-image-view" onclick="closefullView(event)">
@@ -60,17 +71,9 @@
                 <span class="label">Телефон кабінету:</span> <span class="phone-number">📞 +38 (066) 432 04 33</span><br>
                 </p>
             </div>
-            <div class="footer-links">
-                <ul>
-                    <li><a asp-controller="About" asp-action="DiagnosticCabinet">Діагностичний кабінет</a></li>
-                    <li><a asp-controller="About" asp-action="OrtoptychCabinet">Ортоптичний кабінет</a></li>
-                    <li><a asp-controller="Treatment" asp-action="Terapevtic">Терапевтичне лікування</a></li>
-                    <li><a asp-controller="Treatment" asp-action="Orthopedic">Ортоптичне лікування</a></li>
-                    <li><a asp-controller="Treatment" asp-action="Fizioterapevt">Фізіотерапевтичне лікування</a></li>
-                </ul>
-            </div>
+
             <div class="footer-hours">
-                <img src="~/img/Schedule.png" alt="Графік роботи">
+                <img src="~/img/schedule.png" alt="Графік роботи">
                 <p>Всі права захищені, — 2024.</p>
             </div>
         </div>
