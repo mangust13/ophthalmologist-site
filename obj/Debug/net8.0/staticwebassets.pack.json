@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\img\\icons\\phone.png"
     },
     {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\icons\\time.png",
+      "PackagePath": "staticwebassets\\img\\icons\\time.png"
+    },
+    {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\lenses\\lenses_1.jpg",
       "PackagePath": "staticwebassets\\img\\lenses\\lenses_1.jpg"
     },
@@ -167,6 +171,18 @@
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\ortoptych_4.jpg",
       "PackagePath": "staticwebassets\\img\\treatment\\ortoptych_4.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\terapevtic_1.jpg",
+      "PackagePath": "staticwebassets\\img\\treatment\\terapevtic_1.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\terapevtic_2.jpg",
+      "PackagePath": "staticwebassets\\img\\treatment\\terapevtic_2.jpg"
+    },
+    {
+      "Id": "D:\\ophthalmologist-site\\wwwroot\\img\\treatment\\terapevtic_3.jpg",
+      "PackagePath": "staticwebassets\\img\\treatment\\terapevtic_3.jpg"
     },
     {
       "Id": "D:\\ophthalmologist-site\\wwwroot\\js\\site.js",

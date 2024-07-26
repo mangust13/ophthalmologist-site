@@ -63,7 +63,7 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-nav ul li a:hover,nav ul li a.active{
+nav ul li a:hover,nav ul li a.active, .additional-info a:hover{
     color: #008bd0;
 }
 

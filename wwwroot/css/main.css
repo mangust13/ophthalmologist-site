@@ -1,6 +1,6 @@
 ﻿/*Slideshow*/
 .slideshow-container {
-    max-width: 80%;
+    width: 80%;
     margin: 120px auto;
     position: relative;
     overflow: hidden;
@@ -35,21 +35,22 @@
     margin: 60px auto;
 }
 
-    .nav-container img {
-        margin: 0 auto;
-        width: 75%;
-        transition: transform 0.3s, filter 0.3s;
-    }
+.nav-container img {
+    margin: 0 auto;
+    width: 75%;
+    transition: transform 0.3s, filter 0.3s;
+}
 
-    .nav-container a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-container img:hover {
-        transform: scale(1.05);
-        filter: brightness(70%);
-    }
+.nav-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container img:hover {
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
 /*Advantages*/
 .advantages-container {
     display: grid;

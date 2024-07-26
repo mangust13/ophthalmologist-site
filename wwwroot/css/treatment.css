@@ -1,1 +1,186 @@
-﻿
+﻿/*Наше лікування*/
+.treatment-container {
+    width: 80%;
+    margin: 120px auto;
+}
+
+/*Navigation*/
+.nav-text {
+    box-sizing: border-box;
+    line-height: 1;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #008bd0;
+    font-weight: 700;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0 0 40px 0;
+}
+
+.nav-container img {
+    margin: 0 auto;
+    width: 75%;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.nav-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container img:hover {
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+/*Info*/
+.treatment-info{
+    margin: 70px 0;
+}
+
+.treatment-info strong {
+    display: block;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.treatment-info p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+/*Procedure*/
+.treatment-procedure {
+    text-align: justify;
+}
+
+.treatment-procedure h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.procedure-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.treatment-procedure img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 25px;
+}
+
+.procedure-list {
+    list-style: none;
+    padding: 0;
+}
+
+.procedure-list li {
+    margin: 5px 0 10px 35px;
+    font-size: 1.2em;
+    position: relative; 
+}
+
+.procedure-list li::before {
+    content: "👁️";
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+}
+
+/*TERAPEVTIC*/
+.terapevtic-container {
+    width: 80%;
+    margin: 120px auto;
+}
+
+.terapevtic-container h1 {
+    box-sizing: border-box;
+    line-height: 1;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #008bd0;
+    font-weight: 700;
+}
+
+.terapevtic-container p {
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.terapevtic-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 40px auto 0 auto;
+}
+
+.terapevtic-img-container img {
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.terapevtic-img-container img:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+
+
+/*ortopedic*/
+.ortopedic-container {
+    width: 80%;
+    margin: 120px auto;
+}
+
+.ortopedic-container h1{
+    box-sizing: border-box;
+    line-height: 1;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #008bd0;
+    font-weight: 700;
+}
+
+.ortopedic-intro p {
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.treatment-devices h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #008bd0;
+}
+
+
+
+/* Стилі для зображень */
+.procedure-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.procedure-images img {
+    width: calc(25% - 20px);
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

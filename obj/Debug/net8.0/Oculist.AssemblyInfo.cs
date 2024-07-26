@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Oculist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+583f8e77bab431c6bc75be67a8389f515d82ed3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49838c4ba1082580b4c55dae3c65de4dff943d83")]
 [assembly: System.Reflection.AssemblyProductAttribute("Oculist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Oculist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

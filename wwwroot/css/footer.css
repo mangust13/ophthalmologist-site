@@ -2,7 +2,7 @@
     width: 100%;
     background-color: #333;
     color: #fff;
-    padding: 20px 80px;
+    padding: 20px 40px;
     margin-top: auto;
 }
 
@@ -10,44 +10,41 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.footer-contact, .footer-hours {
+.footer-contact {
     flex: 1;
+    min-width: 300px;
 }
 
-.footer-contact h3{
+.footer-contact h3 {
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
 }
 
-.footer-contact p, .footer-hours p {
-    margin: 10px 0;
-    font-size: 13px;
+.footer-contact .contact-item .icon {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
 }
 
 
-.footer-hours img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+.footer-contact .contact-item img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
 }
 
-.footer-hours p {
-    margin-top: 10px;
-    font-size: 13px;
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
     color: #bbb;
+    background-color: #000;
 }
 
-.phone {
-    display: flex;
-    flex-direction: column;
-}
-
-.label, .phone-number {
-    display: inline-block;
-}
-
-.label {
-    min-width: 220px;
-}

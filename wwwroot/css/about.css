@@ -13,6 +13,7 @@
 }
 
 .about-container p {
+    line-height: 1.6;
     text-align: justify;
     font-size: 1.2em;
 }
@@ -56,6 +57,11 @@
     border-radius: 10px;
 }
 
+.doctor-images img:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
 .doctor-footer-text {
     margin-top: 20px;
     font-weight: bold;
@@ -80,8 +86,10 @@
 }
 
 .diagnostic-info h2 {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.5em;
     margin-bottom: 20px;
+    color: #008bd0;
 }
 
 .diagnostic-info ul {
@@ -130,7 +138,9 @@
     margin-bottom: 20px;
     color: #008bd0;
 }
+
 .ortoptych-container p {
+    line-height: 1.6;
     text-align: justify;
     font-size: 1.2em;
 }
@@ -146,8 +156,8 @@
     border-radius: 10px;
 }
 
-    .ortoptych-doctor-image img:hover {
-        cursor: pointer;
-        filter: brightness(70%);
-    }
+.ortoptych-doctor-image img:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
 

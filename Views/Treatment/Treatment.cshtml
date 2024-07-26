@@ -2,6 +2,55 @@
     ViewData["Title"] = "Наше лікування";
 }
 
-<h1>
-    Наше лікування
-</h1>
+<link rel="stylesheet" href="~/css/treatment.css" asp-append-version="true" />
+
+<div class="treatment-container">
+
+<h1 class="nav-text">Наше лікування</h1>
+<div class="nav-container">
+    <a asp-controller="Navigation" asp-action="Diagnostic">
+        <img src="~/img/main/photo_1.png" alt="Зображення 1">
+    </a>
+    <a asp-controller="Navigation" asp-action="Ophthalmology">
+        <img src="~/img/main/photo_2.png" alt="Зображення 2">
+    </a>
+    <a asp-controller="Treatment" asp-action="Orthopedic">
+        <img src="~/img/main/Photo_3.png" alt="Зображення 3">
+    </a>
+    <a asp-controller="Navigation" asp-action="Equipment">
+        <img src="~/img/main/photo_4.png" alt="Зображення 4">
+    </a>
+    <a asp-controller="Navigation" asp-action="FramesAndLenses">
+        <img src="~/img/main/Photo_5.png" alt="Зображення 5">
+    </a>
+    <a asp-controller="About" asp-action="Lenses">
+        <img src="~/img/main/Photo_6.png" alt="Зображення 6">
+    </a>
+</div>
+
+    <div class="treatment-info">
+        <strong>У клініці використовуються сучасні спеціальні комплексні методики відновлення зору. Програма курсу лікування підбирається для кожного пацієнта індивідуально.</strong>
+        <p>Всі терапевтичні процедури, що використовуються в ценрі є безпечними, безболісними та цікавими для дитини. У молодшому віці найбільшою проблемою є ті захворювання, які заважають нормальному розвитку зору – косоокість, амбліопія, вроджена катаракта, глаукома, захворювання сітківки та ін. Якщо не подолати їх вчасно, то зір може залишитись низьким на все життя.</p>
+    </div>
+    <div class="treatment-procedure">
+        <h2>Курс лікування для кожного випадку індивідуальний та розрахований на 10 днів. Тривалість процедур 80-90 хвилин на день і можуть включати наступні апарати:</h2>
+        <div class="procedure-content">
+            <img src="~/img/treatment/ortoptych_3.jpg" alt="Image of procedure room">
+            <ul class="procedure-list">
+                <li>Програмно-апаратний комплекс «БОСЛАБ-ЗІР»</li>
+                <li>Апарат «Струмочок»</li>
+                <li>Інфрачервона лазерна терапія</li>
+                <li>Вакуумний масаж</li>
+                <li>Електростимуляція</li>
+                <li>Магнітотерапія</li>
+                <li>Електрофорез</li>
+                <li>Фототерапія</li>
+                <li>Динамічна офтальмохромотерапія</li>
+                <li>Макулостимулятор</li>
+                <li>Відео-комп'ютерний аутотренінг (ВКА)</li>
+                <li>Комплекс комп'ютерних програм</li>
+                <li>Акомодовечеряч тренер</li>
+            </ul>
+        </div>
+    </div>
+</div>

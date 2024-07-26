@@ -6,7 +6,7 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="~/img/favicon.png" type="image/icon type"/>
 </head>
 <body>
@@ -23,14 +23,18 @@
                         <a asp-controller="Main" asp-action="Main" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "Main" ? "active" : "")">Головна</a>
                     </li>
                     <li >
-                        <a asp-controller="About" asp-action="About" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "About" ? "active" : "")">Про нас</a>
+                        <a asp-controller="About" asp-action="About" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "About" ? "active" : "")">
+                            Про нас <i class="fas fa-angle-down"></i>
+                        </a>
                         <ul class="dropdown-content">
                             <li><a asp-controller="About" asp-action="DiagnosticCabinet" class="@(ViewContext.RouteData.Values["controller"].ToString() == "About" && ViewContext.RouteData.Values["action"].ToString() == "DiagnosticCabinet" ? "active" : "")">Діагностичний кабінет</a></li>
                             <li><a asp-controller="About" asp-action="OrtoptychCabinet" class="@(ViewContext.RouteData.Values["controller"].ToString() == "About" && ViewContext.RouteData.Values["action"].ToString() == "OrtoptychCabinet" ? "active" : "")">Ортоптичний кабінет</a></li>
                         </ul>
                     </li>
                     <li >
-                        <a asp-controller="Treatment" asp-action="Treatment" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" ? "active" : "")">Наше лікування</a>
+                        <a asp-controller="Treatment" asp-action="Treatment" class="dropdown @(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" ? "active" : "")">
+                            Наше лікування <i class="fas fa-angle-down"></i>
+                        </a>
                         <ul class="dropdown-content">
                             <li><a asp-controller="Treatment" asp-action="Terapevtic" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" && ViewContext.RouteData.Values["action"].ToString() == "Terapevtic" ? "active" : "")">Терапевтичне лікування</a></li>
                             <li><a asp-controller="Treatment" asp-action="Orthopedic" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Treatment" && ViewContext.RouteData.Values["action"].ToString() == "Orthopedic" ? "active" : "")">Ортоптичне лікування</a></li>
@@ -38,8 +42,6 @@
                         </ul>
                     </li>
                     <li><a asp-controller="Contacts" asp-action="Contacts" class="@(ViewContext.RouteData.Values["controller"].ToString() == "Contacts" ? "active" : "")">Контакти</a></li>
-                    @* <img src="~/img/icons/map.png" width="35px" alt="Дитяча офтальмологія" /> *@
-
                 </ul>
             </nav>
 
@@ -62,22 +64,40 @@
         </div>
     </main>
     <footer>
-        <div class="footer-container">
-            <div class="footer-contact">
-                <h3>Контакти</h3>
-                <p>м. Рівне, вул. 16 липня, 57 (навпроти діагностичного центру)</p>
-                <p class="phone">
-                    <span class="label">Контактний телефон лікаря:</span> <span class="phone-number">📞 +38 (067) 219 27 74</span><br>
-                <span class="label">Телефон кабінету:</span> <span class="phone-number">📞 +38 (066) 432 04 33</span><br>
-                </p>
+    <div class="footer-container">
+        <div class="footer-contact">
+            <h3>Зв'язатись з нами</h3>
+            <div class="contact-item">
+                <img src="~/img/icons/phone.png" alt="Phone Icon">
+					<strong>Телефон: </strong>
+                    <a href="tel:+380978820835"> +38 (097) 882-08-35</a>
+                    <a href="tel:+380664320433"> +38 (066) 432-04-33</a>
             </div>
-
-            <div class="footer-hours">
-                <img src="~/img/schedule.png" alt="Графік роботи">
-                <p>Всі права захищені, — 2024.</p>
+            <div class="contact-item">
+                <img src="~/img/icons/email.png" alt="Email Icon">
+                    E-mail:<a href="mailto:mariarvlitv@gmail.com"> mariarvlitv@gmail.com</a>
             </div>
+            <div class="contact-item">
+                <img src="~/img/icons/map.png" alt="Address Icon"> 
+                Адреса: 
+                <a target = "_blank" href="https://maps.app.goo.gl/gnvqex48utAmq5US8">
+                        вул. 16 Липня, 57, м. Рівне, Рівненська обл.
+                </a>
+            </div>
+            <div class="contact-item">
+                <img src="~/img/icons/time.png" alt="Clock Icon"> 
+                Робочий час:
+                Пн-Пт: 09:00 - 18:00
+                Cубота: 10:00 - 16:00
+                Неділя: 10:00 - 15:00
+            </div>
+        </div>   
+    </div>
+        <div class="footer-bottom">
+            <p>2024 © Дитяча офтальмологія. Powered by Mangust</p>
         </div>
-    </footer>
+</footer>
+
     <script src="~/js/site.js"></script>
     @* @await RenderSectionAsync("Scripts", required: false); *@
 </body>
